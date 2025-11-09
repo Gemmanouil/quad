@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func QuadA(x, y int) {
+func QuadB(x, y int) {
 	chky := 1                               // metavliti elegxou an vriskomaste se "moni" i "zigi" grammi (an einai 1 = print"/" an einai 2 = print:"\")
 	if x > 0 && y > 0 && y != 1 || x != 1 { // elegxos an einai oi times einai thetikes kai AN oi grammes (y) i oi stiles (x) einai perisoteres apo mia
 		for i := 1; i != y && y != 1; i++ { // loop gia to poses grammes (katheta) na ftiaxei GIA OSO DEN EINAI STIN TELEUTAI GRAMMI!
@@ -64,8 +64,4 @@ func QuadA(x, y int) {
 			}
 		}
 	}
-}
-
-func main() {
-	QuadA(5, 3)
 }

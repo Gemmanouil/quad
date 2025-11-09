@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func QuadD(x, y int) {
-	if x <= 0 || y <= 0 { //checks if x,y positive
+	if x <= 0 || y <= 0 { // checks if x,y positive
 		return
 	}
 
-	for i := 0; i < y; i++ { //loop for row
-		for j := 0; j < x; j++ { //loop for column
+	for i := 0; i < y; i++ { // loop for row
+		for j := 0; j < x; j++ { // loop for column
 			if (i == 0 || i == y-1) && (j == 0 || j == x-1) {
 				if j == 0 {
 					fmt.Print("A")
@@ -27,9 +27,4 @@ func QuadD(x, y int) {
 			fmt.Println()
 		}
 	}
-}
-
-//paradeigma
-func main() {
-	QuadD(5, 3)
 }

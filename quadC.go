@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func QuadC(x, y int) { //check ama einai 8etikos alliws exit
+func QuadC(x, y int) { // check ama einai 8etikos alliws exit
 	if x <= 0 || y <= 0 {
 		return
 	}
 
-	for i := 0; i < y; i++ { //loop seiras
-		for j := 0; j < x; j++ { //loop sthlhs
+	for i := 0; i < y; i++ { // loop seiras
+		for j := 0; j < x; j++ { // loop sthlhs
 			if i == 0 {
 				if j == 0 || j == x-1 {
 					fmt.Print("A")
@@ -33,9 +33,4 @@ func QuadC(x, y int) { //check ama einai 8etikos alliws exit
 			fmt.Println()
 		}
 	}
-}
-
-//paradeigma
-func main() {
-	QuadC(1, 5)
 }
