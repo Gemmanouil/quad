@@ -23,7 +23,9 @@ func QuadD(x, y int) {
 				fmt.Print(" ")
 			}
 		}
-		fmt.Println() //gia na mhn einai sthn idia seira
+		if i != y-1 {
+			fmt.Println()
+		}
 	}
 }
 

@@ -29,12 +29,13 @@ func QuadC(x, y int) { //check ama einai 8etikos alliws exit
 				}
 			}
 		}
-		//gia na mhn vgainoun sthn idia seira
-		fmt.Print("\n")
+		if i != y-1 {
+			fmt.Println()
+		}
 	}
 }
 
 //paradeigma
 func main() {
-	QuadC(5, 3)
+	QuadC(1, 5)
 }
